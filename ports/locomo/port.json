@@ -1,0 +1,35 @@
+{
+  "version": 4,
+  "name": "locomo.zip",
+  "items": [
+    "locomo.sh",
+    "locomo"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "locomo",
+    "porter": [
+      "Noxwell"
+    ],
+    "desc": "locomo is a simple Steam Remote Play client made for arm64 retro handhelds",
+    "desc_md": null,
+    "inst": "Launch locomo while connected to your local WIFI network with a PC running Steam. Select your PC name from the list once it appears. Enter the PIN shown on your PC once to pair (you can reconnect freely afterwards). Enjoy streaming Steam to your handheld!",
+    "inst_md": null,
+    "genres": [
+      "other"
+    ],
+    "image": null,
+    "rtr": true,
+    "exp": false,
+    "runtime": [],
+    "store": [],
+    "availability": "full",
+    "reqs": [
+      "!lowres"
+    ],
+    "arch": [
+      "aarch64"
+    ],
+    "min_glibc": ""
+  }
+}

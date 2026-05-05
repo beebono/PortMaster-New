@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameList>
+  <game>
+    <path>./locomo.sh</path>
+    <name>locomo</name>
+    <desc>locomo is a simple Steam Remote Play client made for arm64 retro handhelds</desc>
+    <releasedate>20260504T000000</releasedate>
+    <genre>Other</genre>
+    <players>1</players>
+    <image>./locomo/cover.png</image>
+  </game>
+</gameList>
