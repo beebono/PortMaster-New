@@ -24,6 +24,8 @@ mkdir -p "$CONFDIR"
 
 cd $GAMEDIR
 
+> "$GAMEDIR/log.txt" && exec > >(tee "$GAMEDIR/log.txt") 2>&1
+
 pm_platform_helper "$GAMEDIR/locomo.${DEVICE_ARCH}"
 
 # Only preload libs when needed as fallbacks
@@ -42,6 +44,6 @@ if [ -n "$PRELOAD_LIBS" ]; then
 fi
 
 export SDL_GAMECONTROLLERCONFIG="$sdl_controllerconfig"
-./locomo.${DEVICE_ARCH} > ./log.txt 2>&1
+./locomo.${DEVICE_ARCH}
 
 pm_finish
